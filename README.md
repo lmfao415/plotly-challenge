@@ -1,25 +1,24 @@
 # plotly-challenge
 
+This project features an interactive dashboard exploring the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
+**The project is fully functional and can be viewed [HERE](https://rmurnane94.github.io/plotly-challenge/)
 
-[HERE](https://rmurnane94.github.io/plotly-challenge/)
+The dataset contains samples taken from different patients, each with a different Subject ID #. Included is data on the most prevalent microbial species (also called operational taxonomic units, or OTUs, in the study) present in each subject. Each OTU has a number assigned to it along with species classification data included as well. 
+
+The dataset reveals that a small handful of OTUs were present in more than 70% of people, while the rest were relatively rare.
+
+## Notes
+
+1. D3 library is used to read in the [`samples.json`](https://github.com/rmurnane94/plotly-challenge/blob/main/static/js/samples.json) file which contains all the data used in JSON format.
+
+6. Update all of the plots any time that a new sample is selected.
 
 
-
-In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
-
-The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
-
-## Step 1: Plotly
-
-1. Use the D3 library to read in `samples.json`.
-
-4. Display the sample metadata, i.e., an individual's demographic information.
-
-5. Display each key-value pair from the metadata JSON object somewhere on the page.
+4. Display the sample metadata, i.e., an individual's demographic information. Display each key-value pair from the metadata JSON object somewhere on the page.
 
 ![hw](https://github.com/rmurnane94/plotly-challenge/blob/main/pics/demo.png)
 
-6. Update all of the plots any time that a new sample is selected.
+
 
 
 2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
