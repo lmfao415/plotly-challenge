@@ -21,7 +21,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 * Use `otu_labels` as the hovertext for the chart.
 
-  ![bar Chart](Images/hw01.png)
+  ![bar Chart](https://github.com/rmurnane94/plotly-challenge/blob/main/pics/bar.png)
 
 3. Create a bubble chart that displays each sample.
 
