@@ -1,5 +1,5 @@
 // initialize the page with some data
-d3.json('./samples.json').then((allData) => {
+d3.json('static/js/samples.json').then((allData) => {
     // populate the dropdown menu with ids
     var optionSelect = d3.select("#selDataset");
     allData.names.forEach(x => { 
@@ -17,7 +17,7 @@ function optionChanged(newId) {
 
 // function to create the charts and metadata
 function createStuff(currentId) {
-    d3.json('./samples.json').then((allData) => {
+    d3.json('static/js/samples.json').then((allData) => {
 // filter samples to find data for the selected id
     var currentSample = allData.samples.filter(x=>x.id===currentId);
     console.log(currentSample);
