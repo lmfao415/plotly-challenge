@@ -13,6 +13,15 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 1. Use the D3 library to read in `samples.json`.
 
+4. Display the sample metadata, i.e., an individual's demographic information.
+
+5. Display each key-value pair from the metadata JSON object somewhere on the page.
+
+![hw](https://github.com/rmurnane94/plotly-challenge/blob/main/pics/demo.png)
+
+6. Update all of the plots any time that a new sample is selected.
+
+
 2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 
 * Use `sample_values` as the values for the bar chart.
@@ -36,15 +45,5 @@ The dataset reveals that a small handful of microbial species (also called opera
 * Use `otu_labels` for the text values.
 
 ![Bubble Chart]![bar Chart](https://github.com/rmurnane94/plotly-challenge/blob/main/pics/bubble.png)
-
-4. Display the sample metadata, i.e., an individual's demographic information.
-
-5. Display each key-value pair from the metadata JSON object somewhere on the page.
-
-![hw](https://github.com/rmurnane94/plotly-challenge/blob/main/pics/demo.png)
-
-6. Update all of the plots any time that a new sample is selected.
-
-Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown below:
 
 
