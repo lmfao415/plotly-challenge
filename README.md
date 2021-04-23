@@ -1,4 +1,4 @@
-# plotly-challenge
+Dynamic Plotly Dashboard
 
 This project features an interactive dashboard exploring the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
 
