@@ -41,7 +41,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 5. Display each key-value pair from the metadata JSON object somewhere on the page.
 
-![hw](https://github.com/rmurnane94/plotly-challenge/blob/main/pics/bubble.png)
+![hw](https://github.com/rmurnane94/plotly-challenge/blob/main/pics/demo.png)
 
 6. Update all of the plots any time that a new sample is selected.
 
