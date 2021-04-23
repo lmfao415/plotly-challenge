@@ -1,11 +1,13 @@
 # plotly-challenge
 
 This project features an interactive dashboard exploring the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
-**The project is fully functional and can be viewed [HERE](https://rmurnane94.github.io/plotly-challenge/)
 
 The dataset contains samples taken from different patients, each with a different Subject ID #. Included is data on the most prevalent microbial species (also called operational taxonomic units, or OTUs, in the study) present in each subject. Each OTU has a number assigned to it along with species classification data included as well. 
 
 The dataset reveals that a small handful of OTUs were present in more than 70% of people, while the rest were relatively rare.
+
+**The full Dashboard is live and interactive [HERE](https://rmurnane94.github.io/plotly-challenge/)
+
 
 ## Notes
 
