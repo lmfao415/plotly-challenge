@@ -6,7 +6,7 @@ The dataset contains samples taken from different patients, each with a differen
 
 The dataset reveals that a small handful of OTUs were present in more than 70% of people, while the rest were relatively rare.
 
-**The full Dashboard is live and interactive [HERE](https://rmurnane94.github.io/plotly-challenge/)
+**The full Dashboard is live and interactive [HERE](https://rmurnane94.github.io/plotly-challenge/)**
 
 
 ## Notes
