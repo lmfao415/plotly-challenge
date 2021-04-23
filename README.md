@@ -11,11 +11,11 @@ The dataset reveals that a small handful of OTUs were present in more than 70% o
 
 ## Notes
 
-1. The [`app.js`](https://github.com/rmurnane94/plotly-challenge/blob/main/static/js/app.js) file uses the D3 library to read in the [`samples.json`](https://github.com/rmurnane94/plotly-challenge/blob/main/static/js/samples.json) file with the JSON data to create the dashboard visualizations.
+1. The [`app.js`](https://github.com/rmurnane94/plotly-challenge/blob/main/static/js/app.js) file uses the D3 library to read in the [`samples.json`](https://github.com/rmurnane94/plotly-challenge/blob/main/static/js/samples.json) file with the JSON data to create the dashboard visualizations. Plotly.js is used to create all visualizations.
 
-6. Subject ID # for each sample can be chosen in the dropdown menu, and all displayed information and plots update when a new sample is selected.
+6. Subject ID # for each sample can be chosen in the dropdown menu, and all displayed information and plots update when a new sample is selected via D3.js event listeners.
 
-4. Information includes metadata, i.e., an individual's demographic information given in the dataset. 
+8. Information includes metadata, i.e., an individual's demographic information given in the dataset. 
 ![hw](https://github.com/rmurnane94/plotly-challenge/blob/main/pics/demo.png)
 
 2. Plots include a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual sample.
