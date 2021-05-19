@@ -6,7 +6,7 @@ The dataset contains samples taken from different patients, each with a differen
 
 The dataset reveals that a small handful of OTUs were present in more than 70% of people, while the rest were relatively rare.
 
-**The full Dashboard is live and interactive [HERE](https://rmurnane94.github.io/plotly-challenge/)**
+**The full Dashboard is live and interactive [HERE](https://rmurnane94.github.io/Dynamic-Plotly-Bacteria-Data-Dashboard/)**
 
 
 ## Notes
@@ -34,11 +34,11 @@ The dataset reveals that a small handful of OTUs were present in more than 70% o
 
 * Uses `sample_values` for the y values.
 
-* Use `sample_values` for the marker size.
+* Uses `sample_values` for the marker size.
 
-* Use `otu_ids` for the marker colors.
+* Uses `otu_ids` for the marker colors.
 
-* Use `otu_labels` for the text values.
+* Uses `otu_labels` for the text values.
 
 ![bubble Chart](https://github.com/rmurnane94/plotly-challenge/blob/main/pics/bubble.png)
 
